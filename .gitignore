@@ -1,0 +1,85 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+*.gz
+debug.log
+
+# Build and output directories
+dist/
+out/
+build/
+.cache/
+.next/
+.vite/
+coverage/
+
+# Frontend dependencies (React)
+*.DS_Store
+.vscode/
+.idea/
+*.code-workspace
+
+# React build files
+/node_modules/
+/public/build/
+/public/assets/
+/public/static/
+/public/*.js
+/public/*.css
+/public/*.map
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Database files (if using SQLite for any reason)
+*.sqlite
+*.sqlite3
+
+# Ignore dependency artifacts
+*.tgz
+.npm/
+.yarn/
+
+# Ignore test coverage reports
+.nyc_output/
+coverage/
+
+# Ignore compiled files
+*.out
+*.class
+*.o
+*.so
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Ignore Git merge conflict files
+*.orig
+
+# Ignore React-specific files
+*.env.local
+.cache/
+public/*.js
+public/*.map
+
